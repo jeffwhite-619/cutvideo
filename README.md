@@ -13,13 +13,15 @@ This script is also biased towards cutting off the end of a video. It supports s
 Also know that the script arguments are not yet "actually" required. However, defaults have only been set for start position and video format, so if you omit these "required" flags below, you're gonna have a bad time, mmkay? I promise I'll get that crap worked in later.
 
 Required arguments:
-    - `-i|--in`       INPUT FILE      The input video filename
-    - `-t|--to`       END POSITION    The position in the video to end the cut, format=hh:mm:ss
+
+    `-i|--in`       INPUT FILE      The input video filename
+    `-t|--to`       END POSITION    The position in the video to end the cut, format=hh:mm:ss
 
 Optional arguments:
-    - `-s|--start`    START POSITION  The position in the video to start the cut
-    - `-f|--format`   VIDEO FORMAT    Video format for conversion, default=00:00:00
-    - `-o|--out`      OUTPUT FILE     The output video filename, default=INPUT FILE
+
+    `-s|--start`    START POSITION  The position in the video to start the cut
+    `-f|--format`   VIDEO FORMAT    Video format for conversion, default=00:00:00
+    `-o|--out`      OUTPUT FILE     The output video filename, default=INPUT FILE
 
 ## TODOs
 
